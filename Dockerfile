@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_TAG
 
-FROM wodby/alpine:${BASE_IMAGE_TAG}
+FROM jlsfernandez1/alpine:${BASE_IMAGE_TAG}
 
 ARG VARNISH_VER
 
